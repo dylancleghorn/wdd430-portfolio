@@ -29,6 +29,20 @@ const projects = [
     ],
     link: "https://github.com/dylancleghorn/cse341-project2",
   },
+  {
+    title: "SecureWatch Dashboard",
+    description:
+      "A vulnerability dashboard for searching, filtering, and reviewing recent security issues from public vulnerability APIs.",
+    technologies: ["JavaScript", "Vite", "NVD API", "CIRCL API", "CSS"],
+    link: "https://github.com/dylancleghorn/wdd330-project",
+  },
+  {
+    title: "Service Network",
+    description:
+      "A volunteer platform for discovering service opportunities, organizations, and community projects.",
+    technologies: ["Node.js", "Express", "EJS", "PostgreSQL", "Authentication"],
+    link: "https://github.com/dylancleghorn/cse340",
+  },
 ];
 
 export default function Home() {
@@ -39,11 +53,11 @@ export default function Home() {
           WDD 430 Portfolio
         </p>
         <h1 className="mt-4 text-4xl font-bold tracking-tight text-slate-950 sm:text-5xl">
-          Building practical web experiences with Next.js.
+          My personal portfolio.
         </h1>
         <p className="mt-6 text-lg leading-8 text-slate-700">
-          This portfolio collects course projects, experiments, and notes that
-          show progress through modern frontend development.
+          A collection of my web projects, experiments, and ideas as I continue
+          learning and building.
         </p>
       </section>
 
